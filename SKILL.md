@@ -114,13 +114,18 @@ Restrict `shot_type` strictly to: `Medium Wide`, `Over-the-Shoulder`, `Medium Cl
 
 ---
 
-## Phase 3: HARD APPROVAL GATE (Mandatory Stop Before Generation)
+## Phase 3: MANDATORY CINEMA PACKAGING CONFIRMATION & HARD APPROVAL GATE
 
 **NEVER generate any image or video while in planning!**
 Once the bible and all beats are drafted:
-1. Present a concise summary: cast count, outfit sheet count, total `10s` beats, total runtime, and **estimated Kie.ai 1K image credit cost** (`(base_sheets + outfit_sheets + beat_grids) × 6 credits`).
-2. Explicitly ask the user to reply **"Go ahead"** (or confirm edits first).
-3. Wait until the user gives explicit approval before starting Phase 4.
+1. **Ask the Cinema Packaging Checklist in Chat (Required User Reply):** Before executing, you MUST ask the user clearly in chat which of these **4 cinema packaging scenes** they want included or skipped (and wait for their explicit answer in chat):
+   - **30-second intense thriller hook compilation** right at the very beginning of the movie (fast highlight montage of the movie's most intense moments)
+   - **Movie Title appearance card**
+   - **Cast scene** listing all characters in the movie
+   - **`Produced by` credit scene** (and if yes, what producer/studio name to display)
+2. Present a concise summary: cast count, outfit sheet count, total `10s` beats, total runtime, their confirmed packaging choices, and **estimated Kie.ai 1K image credit cost** (`(base_sheets + outfit_sheets + beat_grids) × 6 credits`).
+3. Explicitly ask the user to reply **"Go ahead"** (or confirm edits first).
+4. Wait until the user has confirmed their 4 packaging choices in chat AND given explicit render approval before starting Phase 4.
 
 ---
 
